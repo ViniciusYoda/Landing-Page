@@ -1,4 +1,4 @@
-body {
+body{
     background-color: rgb(34, 34, 34);
     color: white;
     font-family: poppinsregular;
@@ -7,91 +7,91 @@ body {
     padding: 15px;
 }
 
-header {
+header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-#title {
+#title{
     flex-direction: column;
     line-height: 10px;
 }
 
-li {
+li{
     display: inline-block;
     margin: 20px;
 }
 
-a {
+a{
     color: white;
 }
 
-a:hover {
-    color: rgb(132, 14, 201)
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
 }
 
-#inscreva-se-btn {
+#inscreva-se-btn{
     border: 2px solid rgb(132, 14, 201);
     padding: 10px;
     border-radius: 15px;
 }
 
-#inscreva-se-btn:hover {
+#inscreva-se-btn:hover{
     background-color: rgb(132, 14, 201);
     color: white;
 }
 
-h1 {
+h1{
     font-weight: 200;
 }
 
-main {
+main{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
 }
 
-h2 {
+h2{
     font-size: 56px;
     line-height: 10px;
-    font-family: poppinsregular;
+    font-family: poppinsmedium;
 }
 
-span {
-    color: rgb(132, 14, 201)
+span{
+    color: rgb(132, 14, 201);
 }
 
-p {
+p{
     line-height: 20px;
     max-width: 500px;
     font-family: poppinslight;
 }
 
-img {
+img{
     width: 580px;
 }
 
-form {
+form{
     display: flex;
     flex-direction: column;
     width: 70%;
 }
 
-form [type="submit"] {
+form [type="submit"]{
     height: 50px;
     width: 50%;
     background-color: rgb(132, 14, 201);
     color: white;
     font-weight: bold;
 }
-
-form [type="submit"]:hover {
+form [type="submit"]:hover{
     cursor: pointer;
 }
 
-input {
+input{
     margin-top: 20px;
     height: 20px;
     padding: 15px;
